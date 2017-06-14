@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<!-- You can open it in mobile device -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Common HTML Character Sets -->
+    <meta charset="UTF-8">
+    <!--Add favicon-->
+	<link rel="shortcut icon" type="image/png" href="assets/images/Texas.png">
+	<title>Artem's portfolio</title>
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine|Montserrat|Corben">
+</head>
+<body>
+	<!-- <div> tag is used to group block-elements to format them with CSS -->
+	<!-- HTML class attribute makes it possible to define equal styles for elements with the same class name -->
+	<!-- HTML class attribute makes it possible to define equal styles for elements with the same class name -->
+	<div class="header-container">
+	<!-- <header> element represents a container for introductory content or a set of navigational links -->
+		<header>Artem Tregubchak</header>
+
+	<!-- <nav> tag defines a set of navigation links -->
+		<nav>
+	<!-- <ul> tag together with the <li> tag to create unordered lists -->
+	<!-- HTML class attribute makes it possible to define equal styles for elements with the same class name -->
+			<ul>
+				<li class="border"><a href="index.html">About</a></li>
+				<li class="border"><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+	
+	<!-- <div> tag is used to group block-elements to format them with CSS -->
+	<!-- HTML class attribute makes it possible to define equal styles for elements with the same class name -->
+	<div class="main-container">
+	<!-- <section> tag defines sections in a document, such as chapters, headers, footers, or any other sections of the documen -->	
+		<section id="contact-form">
+			<h2>Contact</h2>
+	<!-- when you submit your info you'll be transfer to the super interesting image -->
+			<form id="contact" action="assets/images/thank_you.png"post">    
+				<label for="name">Name</label><br>
+				<input id="name" type="text" autocomplete="username" placeholder="John Smith" required><br>
+				<label for="email">Email</label><br>
+				<input id="email" type="email" name="email" autocomplete="email"
+					   placeholder="example@gmail.com" required><br>
+				<label for="textfield">Message</label><br>
+				<textarea id="textfield" rows="8"></textarea><br>
+					<button class="button" type="submit" name="submit">Submit</button>
+			</form>
+    	</section>
+
+    <!-- <section> tag defines sections in a document, such as chapters, headers, footers, or any other sections of the documen -->	
+    	<section id="links">
+    		<h3>Connect with Me</h3>
+    <!-- <ul> tag together with the <li> tag to create unordered lists -->
+    <!-- HTML class attribute makes it possible to define equal styles for elements with the same class name -->
+      		<ul>
+        		<li><a href="https://github.com/artprofi91"><img class="icon" src="assets/images/Github.png" alt="GitHub Profile"></a></li>
+        		<li><a href="https://www.linkedin.com/in/atregubchak"><img class="icon" src="assets/images/Linkedin.png" alt="LinkedIn Profile"></a></li>
+        		<li><a href="https://stackoverflow.com/users/8100499/artem-tregubchak"><img class="icon" src="assets/images/Stack.png" alt="StackOverflow Profile"></a></li>
+        		<li><a href="https://www.facebook.com/artprofi91"><img class="icon" src="assets/images/Facebook.png" alt="Facebook Profile"></a></li>
+        		<li><a href="https://www.instagram.com/irisha_artem/"><img class="icon" src="assets/images/Instagram.png" alt="Instagram Profile"></a></li>
+      		</ul>
+    	</section>
+	</div>
+	<!-- <footer> tag defines a footer for a document or section -->
+	<footer>@ Copyright 2017 Artem Tregubchak</footer>
+</body>
+</html>
