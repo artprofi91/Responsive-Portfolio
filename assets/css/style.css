@@ -581,7 +581,7 @@ footer {
 	}
 }
 
-@media screen and (max-width: 640px) {
+@media (min-width: 100px) and (max-width: 640px) {
 	header { 
 		clear: left;
 		width: 100%;
@@ -613,6 +613,7 @@ footer {
 	li.balalaika {
 		width: 100%;
 		font-size: 18px;
+		font-weight: 700;
 	}
 
 	#project-portfolio {
