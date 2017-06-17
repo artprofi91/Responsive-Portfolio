@@ -581,7 +581,7 @@ footer {
 	}
 }
 
-@media screen and (max-width: 640px) {
+@media (min-width: 400px) and (max-width: 640px) {
 	header { 
 		clear: left;
 		width: 100%;
