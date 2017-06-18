@@ -607,7 +607,6 @@ footer {
 
     ul.circle {
 		margin-left: 10%;
-		font-size: 25px;
 	}
 
 	li.vodka,
@@ -672,4 +671,11 @@ footer {
 		transform: translateY(-103%);
 	}
 	
-}	
+}
+  /*LIST TEXT HAS NORMAL SIZE*/
+@media (min-width: 376px) and (max-width: 667px) {
+	ul.circle {
+	margin-left: 10%;
+	}
+}
+
