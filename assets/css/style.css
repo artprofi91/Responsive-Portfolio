@@ -582,7 +582,7 @@ footer {
 	}
 }
 
-@media screen and (max-width: 667px) {
+@media screen and (max-width: 657px) {
 	header { 
 		clear: left;
 		width: 100%;
@@ -607,6 +607,7 @@ footer {
 
     ul.circle {
 		margin-left: 10%;
+		font-size: 25px;
 	}
 
 	li.vodka,
